@@ -1,0 +1,13 @@
+<script>
+
+    //question 4
+    console.log("hello");
+    fetch('http://www.example.com/api/get/1', { method: 'GET', mode: 'no-cors' }).then((apidata) => {
+        console.log(apidata);
+    }).then((actualdata) => {
+        console.log(actualdata);
+    })
+        .catch((error) => {
+            console.log(error);
+        })
+</script>
